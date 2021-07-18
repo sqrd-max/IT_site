@@ -1,0 +1,249 @@
+@media screen and (max-width: 1408px){
+    .gds__pages{
+        justify-content: space-around;
+    }
+    .gds1{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1200px){
+    .cart {
+        font-size: 15px;
+    }
+    .zakaz_tov_inf{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1034px){
+    .search{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 998px){
+    .logo {
+        height: 30px;
+        margin-left: 7%;
+    }
+    .search,
+    .search-btn,
+    .account,
+    .basket{
+        height: 30px;
+    }
+    .search-btn-icon {
+        width: 22px;
+    }
+}
+@media screen and (max-width: 840px){
+    .header_links{
+        width: 250px;
+    }
+    a {
+        margin-left: 0;
+        font-size: 15px;
+    }
+    .account{
+        margin-left: 4%;
+    }
+    .search{
+        width: 200px;
+    }
+    .unauth{
+        width: 120px;
+    }
+    .zakaz_tov_inf{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 754px){
+    .unauth{
+        width: 100px;
+    }
+    .logo {
+        height: 25px;
+        margin-left: 10%;
+    }
+    .search,
+    .search-btn,
+    .account,
+    .basket{
+        height: 25px;
+    }
+    .search-btn-icon {
+        width: 20px;
+    }
+    a {
+        font-size: 12px;
+    }
+    .header_links{
+        width: 200px;
+        margin-right: 2%;
+    }
+    .cart {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .basket_gds_img img {
+        width: 200px;
+        height: 220px;
+    }
+}
+@media screen and (max-width: 670px){
+    .header_links{
+        width: 130px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .account{
+        margin-left: 0;
+    }
+    .header_links-account{
+        margin-top: 4%;
+    }
+    .search{
+        width: 150px;
+    }
+    .header_links{
+        width: 125px;
+    }
+    .header_search{
+        margin-left: 5%;
+    }
+    .cart {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .basket_gds_img img {
+        width: 150px;
+        height: 170px;
+    }
+}
+@media screen and (max-width: 541px){
+    .add{
+        margin: 1% 0 0 0;
+    }
+    .page_name{
+        font-size: 35px;
+        flex-direction: column;
+        padding: 2%;
+    }
+}
+@media screen and (max-width: 516px){
+    .header_links{
+        width: 115px;
+        margin-right: 0;
+    }
+    .logo {
+        margin-left: 12%;
+    }
+    .header_search{
+        margin-left: 0;
+    }
+    .gds1{
+        width: 240px;
+    }
+    .gds1 img{
+        width: 210px;
+        height: 230px;
+    }
+    .gds button,
+    .gds__pages button{
+        width: 210px;
+    }
+    .zakaz button {
+        height: 40px;
+        width: 240px;
+        font-size: 20px;
+    }
+    .price {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 460px){
+    footer{
+        flex-direction: column;
+    }
+    .end1{
+        margin: 5% 0 5% 0;
+    }
+    .end2{
+        margin-bottom: 5%;
+    }
+    .logo {
+        height: 20px;
+    }
+    .search,
+    .search-btn,
+    .account,
+    .basket{
+        height: 20px;
+    }
+    .search-btn-icon {
+        width: 15px;
+    }
+    a {
+        font-size: 10px;
+    }
+    .search{
+        width: 120px;
+        font-size: 10px;
+    }
+    .unauth{
+        width: 80px;
+    }
+    .header_links{
+        width: 100px;
+    }
+    .nav-toggle {
+        padding: 1em 0.7em;
+        font-size: 1em;
+    }
+    .basket_gds_img img {
+        width: 100px;
+        height: 120px;
+    }
+    .cart {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .kor-btn {
+        width: 20px;
+    }
+    .price {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 374px){
+    .logo {
+        height: 15px;
+    }
+    .search,
+    .search-btn,
+    .account,
+    .basket{
+        height: 15px;
+    }
+    .search-btn-icon {
+        width: 15px;
+    }
+    a {
+        font-size: 8px;
+    }
+    .search{
+        width: 100px;
+        font-size: 8px;
+    }
+    .search-btn {
+        width: 20px;
+    }
+    .search-btn-icon {
+        width: 10px;
+        margin: 0 0 3.7px -4px;
+    }
+    .unauth{
+        width: 70px;
+    }
+    .header_links{
+        width: 80px;
+    }
+}

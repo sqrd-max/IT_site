@@ -1,0 +1,15 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            height: 100%;
+}
+$PrimaryColor: rgba(19, 131, 205,1);
+$secondColor: rgba(5, 93, 107, 1);

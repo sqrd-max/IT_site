@@ -1,0 +1,140 @@
+.page_name {
+    min-height: 70px;
+    background-color: rgba(5, 93, 107, 0.8);
+    color: white;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gds__pages{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 30px;
+    min-height: 731px;
+    width: 100%;
+    margin: 3% 0 0 0;
+}
+.figure{
+    padding-bottom: 40px;
+}
+.edit-block,
+.adding-t-block {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.edit-product,
+.adding-product {
+    background-color: rgb(204, 202, 202);
+    border-radius: 5px;
+    width: 40%;
+    min-height: 150px;
+    padding: 30px 50px;
+    margin: 250px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-title,
+.adding-title,
+.characteristics-title {
+    font-size: 130%
+}
+.editing-block{
+    display: flex;
+}
+.editing-select,
+.additing-select {
+    width: 150px;
+    height: 30px;
+    padding-left: 3px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.editing-block input {
+    width: 150px;
+    height: 30px;
+    padding-left: 3px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.adding-block input {
+    width: 300px;
+    height: 30px;
+    padding-left: 3px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-change-btn,
+.sub-add-btn {
+    background-color: rgba(0, 176, 166, 0.7);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    width: 100px;
+}
+
+
+.add {
+    background-color: rgba(0, 176, 166, 0.7);
+    border-radius: 2px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 50%;
+    margin-left: 2%;
+    align-self: center;
+    transition: .3s ease-in-out all;
+}
+.add:hover{
+    color: white;
+    background-color: rgba(5, 93, 107, 0.8);
+}
+
+.characteristics {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.characteristics_name {
+    background-color: rgb(204, 202, 202);
+    border-radius: 5px;
+    width: 40%;
+    min-height: 150px;
+    padding: 30px;
+    margin: 300px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.characteristics_name_chr {
+    width: 350px;
+    line-height: 30px;
+}

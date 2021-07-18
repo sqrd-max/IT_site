@@ -1,0 +1,123 @@
+.cart {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+    box-shadow: 0px 2px 15px rgb(192, 192, 192);
+    font-size: 19px;
+}
+.basket_gds_name {
+    text-align: center;
+    width: 200px;
+}
+.basket_gds_characteristics {
+    width: 500px;
+    padding: 10px;
+}
+.basket_gds_price {
+    width: 250px;
+}
+.basket_gds_price input {
+    border: none;
+    width: 40px;
+}
+.kor {
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+.basket_gds_img img {
+    width: 230px;
+    height: 250px;
+}
+.kor-btn {
+    width: 30px;
+}
+.price {
+    padding: 20px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    background-color: rgba(5, 93, 107, 0.7);
+}
+.zakaz {
+    margin: 2% 0 2% 0;
+    align-self: center;
+}
+.zakaz button {
+    background-color: rgba(0, 176, 166, 0.7);
+    color: black;
+    border-radius: 5px;
+    border: none;
+    height: 70px;
+    width: 330px;
+    font-size: 30px;
+    transition: .3s ease-in-out all;
+}
+.zakaz button:hover {
+    color: white;
+    background-color: rgba(5, 93, 107, 0.8);
+}
+.zakaz_tov {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+}
+.zakaz_tov_inf {
+    background-color: rgb(204, 202, 202);
+    border-radius: 5px;
+    width: 30%;
+    min-height: 120px;
+    padding: 30px 50px;
+    margin: 250px auto;
+    text-align: center;
+}
+.zakaz_tovara_inp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp, .delivery {
+    width: 100%;
+    height: 44px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.label{
+    margin-top: 17px;
+}
+.inp:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.of-tov {
+    background-color: rgba(0, 176, 166, 0.7);
+    color: black;
+    border-radius: 5px;
+    margin-top: 17px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 100%;
+    transition: .3s ease-in-out all;
+}
+.of-tov:hover {
+    color: white;
+    background-color: rgba(5, 93, 107, 0.8);
+}
